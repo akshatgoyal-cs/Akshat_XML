@@ -20,7 +20,7 @@ public class XmlJDomParser {
          doc.getDocumentElement().normalize();
          System.out.println("Root element :" + doc.getDocumentElement().getNodeName());
          NodeList nList = doc.getElementsByTagName("student");
-         System.out.println("----------------------------");
+         
          
          for (int temp = 0; temp < nList.getLength(); temp++) {
             Node nNode = nList.item(temp);
